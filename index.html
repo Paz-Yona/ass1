@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<div id="menu">
+ 
+<a href="#about">About Me |</a>
+<a href="#photos">My Photos |</a>
+<a href="#playlist">My Playlist |</a>
+<a href="#like">Like  |</a>
+<a href="#qrcoder">QR code  |</a>
+<a href="#spa">Q&A  |</a>
+<a href="#contact">Contact Me</a>
+</div>
+
+
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+
+<img src="logo1.png" alt="qrCode">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><b>about me</b></h2>
+Ariana Grande-Butera is an American singer, songwriter and actress. She began her career in 2008 in the Broadway musical 13, 
+before playing the role of Cat Valentine in the Nickelodeon television series Victorious from 2010 to 2013,
+ and in the spinoff Sam & Cat from 2013 to 2014. Grande made her first musical appearance on the soundtrack for Victorious and was 
+ signed to Republic Records in 2011 after music executive Monte Lipman came across one of her YouTube videos covering songs.
+<br/>
+Grande released her debut album, "Yours Truly" in 2013, which was influenced by 1990s R&B and 1950s doo-wop, 
+and peaked atop the US Billboard 200. Grande ventured into EDM on her second album, "My Everything" (2014), which also topped the US charts 
+and featured four top ten singles on the Billboard Hot 100, the most by any artist in 2014: "Problem", "Break Free", "Bang Bang", 
+and "Love Me Harder". Her third album, "Dangerous Woman" (2016), explored pop and dance, and became her first number-one album in the United Kingdom. 
+She experimented with trap on her next two releases, "Sweetener" (2018) and "Thank U, Next" (2019), with the former winning a Grammy Award 
+for Best Pop Vocal Album, while the latter had largest streaming week ever for a pop album. With the singles "Thank U, Next" , "7 Rings", 
+and "Break Up with Your Girlfriend, I'm Bored", Grande became the first solo artist to hold the top three spots on the 
+Billboard Hot 100 simultaneously, and the second musical act overall after The Beatles in 1964. 
+Grande is also the first artist to have the lead singles from each of their first five studio albums debut within 
+the top-ten on the US charts.
+<br/>
+Critics have compared Grande's wide vocal range to that of Mariah Carey. Her accolades include one Grammy Award, one BRIT Award, 
+three American Music Awards, three MTV Europe Music Awards and two MTV Video Music Awards. She has supported a range of charities 
+and has a large following on social media, becoming the most followed woman on Instagram in February 2019. 
+In 2016, Time named Grande as one of the 100 most influential people in the world on their annual list, and in 2018, 
+Billboard named her Woman of the Year.
+<br/>
+</section>
+
+<section id="photos" class="section">
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><b>my photos</b></h2>
+<br>
+<img src="image1.jpg" alt="Ariana in Show">
+<img src="image2.jpg" alt="Clip">
+<img src="image3.jpg" alt="show">
+<img src="image4.jpg" alt="time">
+<br/>
+
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><b>my playlist</b></h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLFO0esT_hEQSS4vqO1nh5i6TRyIvsMXAN" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+
+<br/>
+<br/>
+<h2><b>give me a like</b></h2>
+<br/>
+<br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.arianagrande.com%2F&width=150&layout=standard&action=like&size=large&show_faces=false&share=false&height=35&appId" 
+width="150" height="35" 
+style="border:none;overflow:hidden" 
+scrolling="no" 
+frameborder="0" 
+allowTransparency="true" 
+allow="encrypted-media">
+</iframe>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+
+<br/>
+<h2><b>scan my code</b></h2>
+<br/>
+<br/>
+<img src="qrCode.png" alt="qrCode">
+
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<h2><b>ans</b></h2>
+<br>
+<h4><b>Q1</b></h4>
+<br/>
+<br/>
+<h4><b>Q2</b></h4>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2><b>contact me</b></h2>
+
+<form method="POST" action="pazyo@post.bgu.ac.il">
+
+  <input type="hidden" name="recipient" value="deitel@deitel.com">
+  <input type="hidden" name="subject" value="Feedback Form">
+  <input type="hidden" name="redirect" value="main.html"> 
+  
+  <p><strong> E-mail:</strong><br>
+  <input type="text" name="mail" placeholder="someone@mail.com"> <br></p>
+
+  <p><strong> Subject:</strong><br>
+  <input type="text" name="subject"><br></p>
+
+  <p><strong>Comments:</strong><br> 
+  <textarea name="comments" placeholder="Write comments..." rows="4" cols="100" style="margin: 0px; width: 400px; height: 120px;"></textarea><br>
+  <input type="submit" value="Send">
+  <input type="reset" value="Reset">
+  </p>
+</form>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
