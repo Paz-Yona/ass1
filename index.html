@@ -6,7 +6,7 @@
 <body>
 
 <div id="menu">
-  <img src="logo2.png" alt="logo1" width="60" height="20" >
+  <img src="logo2.png" id="logo" alt="logo1" width="60" height="20" >
 <a href="#about">About Me |</a>
 <a href="#photos">My Photos |</a>
 <a href="#playlist">My Playlist |</a>
@@ -189,7 +189,29 @@ allowTransparency="true" allow="encrypted-media">
 <br/>
 <h2><b>contact me</b></h2>
 
-<form method="POST" action="pazyo@post.bgu.ac.il">
+<!--<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Send e-mail to someone@example.com:</h2>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html> -->
+
+
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
 
   <input type="hidden" name="recipient" value="deitel@deitel.com">
   <input type="hidden" name="subject" value="Feedback Form">
