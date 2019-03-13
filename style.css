@@ -47,6 +47,10 @@ body
 	
 	
 }
+#aboutMeText{
+	color: black;
+	background-color:rgb(110, 177, 179)
+}
 
 #photos
 {
@@ -72,7 +76,13 @@ body
 
 #spa
 {
-	text-align: center
+	text-align: left;
+	
+}
+#Q1
+{
+	color: black;
+	background-color:rgb(110, 177, 179)
 }
 
 #contact
