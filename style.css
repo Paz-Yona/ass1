@@ -34,7 +34,7 @@ body
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 
 	font-family: "Comic Sans MS", Times, serif;
 }
@@ -42,7 +42,7 @@ body
 #about
 {
 	
-	text-align: left;
+	text-align: center;
 	
 	
 	
@@ -76,12 +76,14 @@ body
 
 #spa
 {
-	text-align: left;
+	text-align: center;
+	
 	
 }
 #Q1
 {
 	color: black;
+	
 	background-color:rgb(110, 177, 179)
 }
 
@@ -99,7 +101,7 @@ h2
 }
 h4
 {
-	text-align: left;
+	text-align: center;
 	background: rgb(190, 140, 174);
 	
 }
