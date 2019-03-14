@@ -19,6 +19,8 @@
 }
 #logo
 {
+	-moz-force-broken-image-icon: initial;
+	
 text-align: left
 }
 
@@ -76,13 +78,22 @@ body
 
 #spa
 {
-	text-align: center;
+	text-align: left;
+	
 	
 	
 }
 #Q1
 {
 	color: black;
+	
+	background-color:rgb(110, 177, 179)
+}
+
+#Q2
+{
+	color: black;
+	text-align: left;
 	
 	background-color:rgb(110, 177, 179)
 }
