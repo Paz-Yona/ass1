@@ -51,7 +51,10 @@ body
 }
 #aboutMeText{
 	color: black;
-	background-color:rgb(110, 177, 179)
+	background-color:whitesmoke
+	/* background-color:rgb(110, 177, 179)*/
+	
+	
 }
 
 #photos
@@ -86,8 +89,7 @@ body
 #Q1
 {
 	color: black;
-	
-	background-color:rgb(110, 177, 179)
+	background-color:whitesmoke
 }
 
 #Q2
@@ -95,7 +97,8 @@ body
 	color: black;
 	text-align: left;
 	
-	background-color:rgb(110, 177, 179)
+	
+	background-color:whitesmoke
 }
 
 #contact
